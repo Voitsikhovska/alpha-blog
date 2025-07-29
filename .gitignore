@@ -1,0 +1,58 @@
+# OS-specific files
+*.swp
+*.DS_Store
+*.bak
+*.tmp
+*.log
+
+# Rails logs and temp files
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
+
+# Environment config
+.env
+.env.*
+
+# Credentials
+/config/master.key
+/config/credentials.yml.enc
+
+# Byebug history
+.byebug_history
+
+# SQLite
+*.sqlite3
+*.sqlite3-journal
+
+# Node modules (if using webpack or js bundlers)
+node_modules/
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# NPM logs
+npm-debug.log*
+
+# Coverage reports
+coverage/
+
+# RVM
+.rvmrc
+.rvm/
+.ruby-version
+.ruby-gemset
+
+# IDEs and editors
+.idea/
+.vscode/
+*.code-workspace
+
+# System files
+*.lock
